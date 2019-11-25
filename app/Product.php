@@ -110,8 +110,6 @@ class Product extends Model
 
     /**
      * @param $request
-     * @return bool
-     * @throws \Exception
      */
     public function setAtts($request)
     {
@@ -141,7 +139,6 @@ class Product extends Model
                 }
             }
         }
-        return true;
     }
 
     /**

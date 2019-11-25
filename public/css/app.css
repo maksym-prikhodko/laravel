@@ -153,14 +153,16 @@ header table {
   text-transform: capitalize;
 }
 
-.productsWrapper {
-  display: -webkit-box;
-  display: flex;
-  flex-wrap: wrap;
-  -webkit-box-align: start;
-          align-items: flex-start;
-  -webkit-box-pack: start;
-          justify-content: flex-start;
+@media screen and (min-width: 767px) {
+  .productsWrapper {
+    display: -webkit-box;
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-box-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: center;
+            justify-content: center;
+  }
 }
 
 .errorMsg {
